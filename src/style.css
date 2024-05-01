@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, #bfe513, #4e9e0c);
+}
+
+.container {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  max-width: 80%;
+  background-color: whitesmoke;
+}
+
+header {
+  color: green;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 1px solid rgba(77, 128, 0, 0.2);
+}
+
+header h1 {
+  font-weight: bolder;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description {
+    background-color: #4e9e0c;
+    padding: 16px;
+    text-align: center;
+  }
+}
+
+.image {
+  border-radius: 15px 15px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.description {
+  background-color: #4e9e0c;
+  padding: 67px 16px;
+  text-align: center;
+}
+
+.description a {
+  color: yellow;
+  font-size: 13px;
+}
+
+.description a:hover {
+  opacity: 0.9;
+}
+
+.description p {
+  text-align: start;
+  font-size: 17px;
+}
+
+.description h3 {
+  color: yellow;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  background-color: whitesmoke;
+}
+
+.features-content h3 {
+  color: green;
+  text-align: center;
+}
+
+.features-content {
+  padding: 0 10px;
+}
+
+.features-content ul {
+  list-style: circle;
+  padding: 0 18px;
+  margin: 0;
+}
+
+.features li {
+  margin-bottom: 10px;
+}
+
+.testimonials {
+  background-color: #4e9e0c;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  border-radius: 0 0 15px 15px;
+}
+
+.testimonials-btn {
+  max-width: 50%;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #4d8000;
+  color: green;
+  background-color: whitesmoke;
+  margin: 20px auto 10px auto;
+  transition: all 200ms ease-in-out;
+}
+
+.testimonials-btn:hover {
+  border: none;
+  color: whitesmoke;
+  background-color: #4e9e0c;
+}
+
+.testimonials h3 {
+  color: yellow;
+  text-align: center;
+}
+
+.row-two {
+  display: flex;
+}
+
+.row-two blockquote {
+  color: whitesmoke;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.first-quote {
+  border-right: 5px solid whitesmoke;
+  padding-right: 5px;
+}
+
+.second-quote {
+  padding-left: 12px;
+}
+
+.row-two cite {
+  font-style: italic;
+}
+
+footer {
+  border-top: 1px solid rgba(77, 128, 0, 0.2);
+  text-align: center;
+  font-size: 14px;
+  margin-top: 5px;
+  color: #4d8000;
+  padding-top: 10px;
+}
